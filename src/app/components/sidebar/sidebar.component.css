@@ -1,0 +1,39 @@
+/* src/app/sidebar/sidebar.component.css */
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.sidebar a {
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidebar h2 {
+    color: #ccc;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #2980b9;
+}
+
+.sidebar .fas {
+    color: rgb(6, 128, 168);
+    margin-right: 10px;
+    font-size: 20px;
+}
